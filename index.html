@@ -4,33 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Sneakers Box</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="./src/box-icon.png">
 </head>
 <body>
     <header id="header">
-        <img id="header-img" src="" alt="">
+        <img id="header-img" src="./src/box-icon.png" alt="" height="50px">
+        <label for="header-img">Sneakers Box</label>
         <nav id="nav-bar">
-            <a  href="#features" class="nav-link">Features</a>
-            <a  href="#shoes" class="nav-link">Shoes</a>
-            <a  href="#pricing" class="nav-link">Pricing</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#shoes" class="nav-link">Shoes</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
         </nav>
     </header>
     <main>
         <section id="form-section">
-            <form id="form" action="htpps://freecodecamp.com/email-submit">
+            <h2>Premium, Hype, Rare Sneakers</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input id="email" type="email" placeholder="Enter your email address">
                 <input type="submit" id="submit">
             </form>
         </section>
         <section id="features">
-
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-fire"></i>
+                </div>
+                <div class="description">
+                    <h2>Premium Sneakers</h2>
+                    <p>
+                        Our sneakers are the most desired on the market.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="description">
+                    <h2>Fast Shipping</h2>
+                    <p>
+                        We make sure you recieve your trombone as soon as we have
+                        finished making it. We also provide free returns if you are not
+                        satisfied.
+                      </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-battery-full"></i>
+                </div>px
+                <div class="description">
+                    <h2>Quality Assurance</h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages
+                        or faults and we will check and test the pitch of your
+                        instrument.
+                      </p>
+                </div>
+            </div>
         </section>
         <section id="shoes">
-
+            <video id="video" src="./src/Motion Design For Nike Shoe (Upcoming).mp4" autoplay muted></video>
         </section>
         <section id="pricing">
-
+            <div class="box-price"></div>
+            <div class="box-price"></div>
+            <div class="box-price"></div>
         </section>
     </main>
+    <footer>
+        <ul>
+            <li><a href="#">Privicy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2023, Sneakers Box</span>
+    </footer>
 </body>
 </html>
