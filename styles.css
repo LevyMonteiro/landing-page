@@ -75,6 +75,7 @@ nav ul {
     width: 100%;
     max-width: 150px;
     height: 30px;
+    margin-bottom: 0;
     font-size: 1em;
     font-weight: 900;
 }
@@ -93,6 +94,10 @@ nav ul {
 
 .btn:hover {
     background-color: #EC4E20;
+}
+
+#features {
+    padding-top: 75px;
 }
 
 #features .grid {
