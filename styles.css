@@ -117,3 +117,14 @@ nav ul {
 .icon i {
     color: #EC4E20;
 }
+
+#shoes {
+    display: flex;
+    justify-content: center;
+    margin: 75px 0;
+}
+
+#shoes video {
+    width: 100%;
+    max-width: 720px;
+}
