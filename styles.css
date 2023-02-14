@@ -223,7 +223,6 @@ footer span {
     
     #nav-bar {
         margin: auto;
-        margin-top: 10px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -242,6 +241,7 @@ footer span {
 
     #features {
         margin-top: 0;
+        padding-top: 0;
     }
 }
 
