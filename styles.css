@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-main {
+main, footer {
     margin: 0 auto;
     width: 1000px;
 }
@@ -46,7 +48,7 @@ nav ul {
     list-style: none;
 }
 
-.nav-link {
+.nav-link, .footer-links {
     text-decoration: none;
     color: black;
 }
@@ -89,7 +91,7 @@ nav ul {
     padding: 0 20px;
     border-radius: 2px;
     height: 40px;
-    /* font-weight: 400; */
+    font-size: 1rem;
 }
 
 .btn:hover {
@@ -171,4 +173,30 @@ nav ul {
     list-style: none;
     padding: 5px 0;
     font-size: 0.9em;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 16px 16px 0 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 0 10px;
+}
+
+footer span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    color: #444;
 }
